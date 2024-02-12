@@ -6,12 +6,15 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   mode: "jit",
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
+        light: "#232A3C",
+        dark: "#111827",
         "black-100": "#2B2C35",
         "primary-blue": {
           DEFAULT: "#2B59FF",

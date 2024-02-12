@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --light: #fcfbf4;
+  --dark: #0a0a0a;
+  --dark-blue: #3fc7eb;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +18,7 @@
 }
 
 /* START: General styles */
+
 .max-width {
   @apply max-w-[1440px] mx-auto;
 }
@@ -43,7 +50,7 @@
 }
 
 .hero__title {
-  @apply 2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold;
+  @apply 2xl:text-[72px] sm:text-[46px] text-[50px] font-extrabold;
 }
 
 .hero__subtitle {

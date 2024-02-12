@@ -17,7 +17,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/icon.png" />
       </head>
-      <body className="relative">
+      <body className="relative dark:bg-[--dark]">
         <Navbar />
         {children}
         <Footer />

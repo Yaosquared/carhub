@@ -81,11 +81,11 @@ const SearchBar = () => {
           value={model}
           onChange={(e) => setModel(e.target.value)}
           placeholder="Tiguan"
-          className="searchbar__input"
+          className="searchbar__input focus:border shadow-lg"
         />
         <SearchButton otherClasses="sm:hidden" />
       </div>
-      <SearchButton otherClasses="max-sm:hidden" />
+      <SearchButton otherClasses="max-sm:hidden hover:scale-105 ease-in duration-100" />
     </form>
   );
 };

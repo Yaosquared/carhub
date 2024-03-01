@@ -81,7 +81,7 @@ const SearchBar = () => {
           value={model}
           onChange={(e) => setModel(e.target.value)}
           placeholder="Tiguan"
-          className="searchbar__input focus:border shadow-lg"
+          className="searchbar__input focus:border shadow-lg dark:bg-[--gray]"
         />
         <SearchButton otherClasses="sm:hidden" />
       </div>

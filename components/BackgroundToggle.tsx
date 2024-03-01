@@ -26,7 +26,7 @@ const BackgroundToggle = () => {
 
   return (
     <div
-      className="relative min-w-[100px] h-[56px] flex items-center dark:bg-dark bg-[--light] cursor-pointer rounded-full p-2.5 shadow-md"
+      className="relative min-w-[100px] h-[56px] flex items-center bg-[--light] cursor-pointer rounded-full p-2.5 shadow-md"
       onClick={() => setDarkMode(!darkMode)}
     >
       <FaMoon className="text-primary-blue" size={18} />

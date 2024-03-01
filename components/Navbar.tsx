@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="flex gap-3 items-center hover:scale-105 ease-in duration-100">
           <Link href="/" className="flex justify-center items-center">
             <Image
-              src="/favicon-32x32.png"
+              src="/favicon.ico"
               alt="Car Hub Logo"
               width={40}
               height={40}

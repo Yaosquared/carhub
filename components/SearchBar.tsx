@@ -11,9 +11,9 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
     <Image
       src="/magnifying-glass.svg"
       alt="magnifying glass"
-      width={40}
-      height={40}
-      className="object-contain"
+      width={50}
+      height={50}
+      className="object-contain border-2 border-gray-100 dark:bg-zinc-800 dark:border-zinc-800 shadow-sm dark:shadow-zinc-900 rounded-full"
     />
   </button>
 );
@@ -81,7 +81,7 @@ const SearchBar = () => {
           value={model}
           onChange={(e) => setModel(e.target.value)}
           placeholder="Tiguan"
-          className="searchbar__input focus:border shadow-lg dark:bg-[--gray]"
+          className="searchbar__input focus:border shadow-lg dark:bg-zinc-800 dark:focus:border-zinc-700 dark:shadow-sm dark:shadow-zinc-800"
         />
         <SearchButton otherClasses="sm:hidden" />
       </div>

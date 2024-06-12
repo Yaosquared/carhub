@@ -28,12 +28,12 @@ const BackgroundToggle = () => {
 
   return (
     <div
-      className="relative w-20 py-4 flex items-center bg-[--light] cursor-pointer rounded-full p-2.5 shadow-md dark:bg-zinc-800"
+      className="relative w-16 md:w-20 py-4 flex items-center bg-[--light] cursor-pointer rounded-full p-2.5 shadow-md dark:bg-zinc-800"
       onClick={() => setDarkMode(!darkMode)}
     >
       <FaMoon className="text-primary-blue" size={18} />
       <div
-        className="absolute bg-[--light] w-11 h-11 rounded-full border-2 shadow-lg transition-transform duration-300 dark:bg-zinc-700 dark:border-zinc-700"
+        className="absolute bg-[--light] w-9 h-9 md:w-11 md:h-11 rounded-full border-2 shadow-lg transition-transform duration-300 dark:bg-zinc-700 dark:border-zinc-700"
         style={darkMode ? { left: "2px" } : { right: "2px" }}
       ></div>
       <BsSunFill className="ml-auto text-yellow-400" size={18} />

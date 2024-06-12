@@ -17,7 +17,7 @@ const Navbar = () => {
               className="object-contain"
             />
           </Link>
-          <h2 className="font font-bold text-2xl text-[--dark] dark:text-[--light]">
+          <h2 className="font font-bold text-xl md:text-2xl text-[--dark] dark:text-[--light]">
             CarHub
           </h2>
         </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
           <CustomButton
             title="Sign in"
             btnType="button"
-            containerStyles="text-primary-blue rounded-full bg-white min-w-sm md:min-w-[130px] hover:scale-105 ease-in duration-100 border font-semibold shadow-md dark:bg-zinc-800 dark:border-zinc-700"
+            containerStyles="text-primary-blue rounded-full bg-white min-w-min md:min-w-[130px] hover:scale-105 ease-in duration-100 border font-semibold shadow-md dark:bg-zinc-800 dark:border-zinc-700"
           />
         </div>
       </nav>

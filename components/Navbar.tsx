@@ -12,8 +12,8 @@ const Navbar = () => {
             <Image
               src="/favicon.ico"
               alt="Car Hub Logo"
-              width={40}
-              height={40}
+              width={30}
+              height={30}
               className="object-contain"
             />
           </Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
           </h2>
         </div>
 
-        <div className="flex gap-6">
+        <div className="flex gap-2 md:gap-6">
           <div className="hover:scale-105 ease-in duration-100">
             <BackgroundToggle />
           </div>
